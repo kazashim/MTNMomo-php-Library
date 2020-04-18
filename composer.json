@@ -1,0 +1,20 @@
+{
+    "name": "cynojine/momo",
+    "description": "MTNMOMO api Library",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "ramsey/uuid": "^3.8"
+    },
+    "authors": [
+        {
+            "name": "Kazashim Kuzasuwat",
+            "email": "kazashimkuzasuwat@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cynojine\\Mtnmomo\\": "src"
+        }
+    }
+}
