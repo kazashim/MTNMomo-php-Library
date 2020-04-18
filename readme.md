@@ -1,6 +1,6 @@
 ## Momo
 
-Zed MomoPay is a library in PHP for the MTN Mobile Money  Developers can itergrate into thier apps.
+Zambia MomoPay is a library in PHP for the MTN MobileMoney.  Developers can itergrate into thier apps.
 
 ## Product support
 
