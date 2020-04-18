@@ -16,9 +16,9 @@ Zed MomoPay is a library in PHP for the MTN Mobile Money  Developers can itergra
 * Collections
 * Disbursements
 * Remittances
-=
+
 ## Generate UUID
-To Generate UUIS Go to This link[UUID-Generator](https://www.uuidgenerator.net/)
+To Generate UUIS Go to This link [UUID-Generator](https://www.uuidgenerator.net/)
 
 ## Installation
 
