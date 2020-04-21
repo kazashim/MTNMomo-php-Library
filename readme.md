@@ -1,6 +1,6 @@
 ## Momo
 
-Zambia MomoPay is a library in PHP for the MTN MobileMoney.  Developers can itergrate into thier apps.
+MomoPay library in PHP for the MTN MobileMoney. Developers can integrate into their apps.
 
 ## Product support
 
@@ -28,6 +28,7 @@ Add the Autoload Path to get access to the MomoPay Library
 <?php
 require 'vendor/autoload.php';
 ```
+<<<<<<< HEAD
 ```php
 <?php
 use Cynojine\Mtnmomo\Products\Collection;
@@ -43,3 +44,5 @@ $options = [
 $collection = Collection::create($options);
 
 ```
+=======
+>>>>>>> 1af778aa67e7e27d56dcab6871ae5989fd390884
