@@ -28,3 +28,25 @@ Add the Autoload Path to get access to the MomoPay Library
 <?php
 require 'vendor/autoload.php';
 ```
+```php
+<?php
+use Cynojine\Mtnmomo\Products\Collection;
+use Cynojine\Mtnmomo\Products\Disbursement;
+use Cynojine\Mtnmomo\Products\Remittance;
+
+$options = [
+    'subscriptionKey' => '', //Add Subscription key
+    'xReferenceId' => '', //Api user reference id (in UUID format) Generate your UUID https://www.uuidgenerator.net/
+    'apiKey' => '', // Api user key (Supply this after generating it 
+];
+
+// Using collection
+$collection = Collection::create($options);
+
+// Using disbursement
+$disbursement = Disbursement::create($options);
+
+// Using remittance
+$remittance = Remittance::create($options);
+
+```
