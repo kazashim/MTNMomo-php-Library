@@ -31,8 +31,7 @@ require 'vendor/autoload.php';
 ```php
 <?php
 use Cynojine\Mtnmomo\Products\Collection;
-use Cynojine\Mtnmomo\Products\Disbursement;
-use Cynojine\Mtnmomo\Products\Remittance;
+
 
 $options = [
     'subscriptionKey' => '', //Add Subscription key
@@ -40,13 +39,7 @@ $options = [
     'apiKey' => '', // Api user key (Supply this after generating it 
 ];
 
-// Using collection
+//  collection
 $collection = Collection::create($options);
-
-// Using disbursement
-$disbursement = Disbursement::create($options);
-
-// Using remittance
-$remittance = Remittance::create($options);
 
 ```
