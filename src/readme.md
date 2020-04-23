@@ -18,7 +18,7 @@ MomoPay library in PHP for the MTN MobileMoney. Developers can integrate into th
 * Remittances
 
 ## Generate UUID
-To Generate UUIS Go to This link [UUID-Generator](https://www.uuidgenerator.net/)
+To Generate UUID Go to This link [UUID-Generator](https://www.uuidgenerator.net/)
 
 ## Installation
 
