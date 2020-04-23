@@ -22,6 +22,10 @@ To Generate UUID Go to This link [UUID-Generator](https://www.uuidgenerator.net/
 
 ## Installation
 
+```TERMINAL
+composer require cynojine/zmtnmomo
+```
+
 Add the Autoload Path to get access to the MomoPay Library
 
 ```php
